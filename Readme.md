@@ -1,8 +1,8 @@
-This pro
+This project was developed by me and [Soham bit](https://github.com/bit-soham)
 
 # Variational Autoencoder (VAE)
 
-This repository contains a re-implementation of the Variational Autoencoder architecture inspired by the **"Autoencoders by Dor Bank, Noam Koenigstein, Raja Giryes"** [paper](https://arxiv.org/abs/2003.05991). Our approach builds upon the architecture used in **Stable Diffusion's VAE encoder-decoder**(https://github.com/Stability-AI/stablediffusion), with novel training strategies that significantly enhance model performance.
+This repository contains a re-implementation of the Variational Autoencoder architecture inspired by the **"Autoencoders by Dor Bank, Noam Koenigstein, Raja Giryes"** [paper](https://arxiv.org/abs/2003.05991). Our approach builds upon the architecture used in [**Stable Diffusion's VAE encoder-decoder**](https://github.com/Stability-AI/stablediffusion), with novel training strategies that significantly enhance model performance.
 
 ## Key Highlights
 
@@ -29,7 +29,7 @@ While our model's MAE and MSE are slightly higher than NVAE, it performs competi
 - **MAE:** 0.1031
 - **MSE:** 0.03385
 
-The loss decreased uniformly across epochs with minimal fluctuations, showcasing stable and consistent training. The trends in the loss curve are shown in **Figure 1** (refer to the attached figure in this repository).
+The loss decreased uniformly across epochs with minimal fluctuations, showcasing stable and consistent training. The trends in the loss curve are shown in **Figure 1**.
 
 ---
 
