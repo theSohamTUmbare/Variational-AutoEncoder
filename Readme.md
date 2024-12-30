@@ -15,7 +15,9 @@ This repository contains a re-implementation of the Variational Autoencoder arch
 | NVAE        | 0.08-0.12 | 0.01-0.02 | 128x128 to 512x512 |
 | Beta-VAE    | 0.1-0.15  | 0.02      | 128x128          |
 | **Our Model** | **0.1031** | **0.03385** | **128x128**      |
-**Figure 1**
+
+**[Figure 1]**
+
 While our model's MAE and MSE are slightly higher than NVAE, it performs competitively with Beta-VAE, offering a trade-off between flexibility and fidelity. The incorporation of perceptual loss adds robustness to reconstructions, ensuring semantic and structural fidelity.
 
 ---
