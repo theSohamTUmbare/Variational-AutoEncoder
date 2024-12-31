@@ -112,5 +112,4 @@ We express our gratitude to the creators of **Stable Diffusion** and the origina
 
 ---
 
-Happy experimenting!
-
+🧑‍💻 Happy Experimenting! 🔬
