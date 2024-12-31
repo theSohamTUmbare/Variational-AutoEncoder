@@ -49,12 +49,10 @@ Our loss function includes:
 - **KL Divergence Penalty**: To ensure proper regularization in the latent space.
 - **Reconstruction Loss**: A combination of MAE and MSE for pixel-level accuracy.
 
-### Credits and Licensing
+### Credits
 
 - **Architecture:** The encoder-decoder architecture is adapted from **Stable Diffusion's VAE**(https://github.com/Stability-AI/stablediffusion).
 - **Dataset:** flickr8k dataset was used for training and evaluation.
-
-This repository complies with all licensing requirements. Please refer to the `LICENSE` file for more details.
 
 ---
 
