@@ -46,7 +46,7 @@ class VAE_Encoder(nn.Module):
         # (Batch_Size, 8, Height / 8, Width / 8) -> (Batch_Size, 8, Height / 8, Width / 8)
         self.final_conv1x1 = nn.Conv2d(8, 8, kernel_size=1, padding=0)
 
-    def forward(self, x, noise=0):
+    def forward(self, x):
         # (Batch_Size, Channel, Height, Width) -> (Batch_Size, 128, Height, Width)
         x = self.initial_conv(x)
         # (Batch_Size, 128, Height, Width) -> (Batch_Size, 128, Height, Width)
@@ -110,6 +110,7 @@ class VAE_Encoder(nn.Module):
         # Apply noise for reparameterization trick
         # Transform N(0, 1) -> N(mean, stdev)
         # (Batch_Size, 4, Height / 8, Width / 8) -> (Batch_Size, 4, Height / 8, Width / 8)
+        noise = torch.randn_like(mean) 
         x = mean + stdev * noise
 
         # Scale the output
