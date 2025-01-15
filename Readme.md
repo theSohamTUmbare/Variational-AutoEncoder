@@ -92,7 +92,7 @@ Our loss function includes:
    ![Latent Visualization](results/Latent_4dim_image.jpg)
 
 3. **Reconstructed Output**
-   ![Reconstructed Image](results/output_we_got.png)
+   ![Reconstructed Image]()
 
 ---
 
