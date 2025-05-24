@@ -44,7 +44,7 @@ The loss decreased uniformly across epochs with minimal fluctuations, showcasing
 
 ## Novel Contributions
 
-The architecture of this VAE is derived from the **Stable Diffusion VAE encoder-decoder**, which we acknowledge. However, the key innovation lies in the novel **loss logic** we developed, located in the `Loss/` directory of this repository. This logic was instrumental in achieving near-SOTA performance.
+The architecture of this VAE is derived from the **Stable Diffusion VAE encoder-decoder**, which we acknowledge. However, the key innovation lies in the novel **loss logic** we developed, located in the `src/Loss/` directory of this repository. This logic was instrumental in achieving near-SOTA performance.
 
 Our loss function includes:
 - **Perceptual Loss**: To enhance semantic and structural fidelity in reconstructions.
